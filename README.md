@@ -1,7 +1,4 @@
-This firmware uses an ESP32 development board (devkit) to operate a digital clock using LED numeric displays that were inspired by Nixie tubes. 
-
-ESP32 is a series of low-cost and low-power System-on-a-Chip (SoC) microcontrollers developed by Espressif Systems. They include integrated WiFi capability, dual-core processors, and much more. 
-Numerous manufacturers make ESP32 development boards that also include 4MB of flash memory, USB connectivity, a 3.3-volt power regulator, a couple of LEDs, and buttons for reset and programming. This is all packaged on a convenient little circuit board about a third the size of a business card. 
+This firmware uses an ESP32 development board (devkit) to operate a digital clock using LED numeric displays inspired by Nixie tubes. 
 
 This firmware syncs with a Network Time Protocol (NTP) server over WiFi to automatically set the clock's time and keep it accurate. The firmware can automatically find the local time zone and it also adjusts for Daylight Saving Time on its own.
 
@@ -19,7 +16,7 @@ NixieCron made by Led-Genial (any type, S, M, or L)
 
 EleksTube made by EleksMaker
 
-Lixie made by Connor Nishijima (Lixie Labs)
+Lixie made by Lixie Labs
 
 As of this writing, NixieCron displays are available from Led-Genial in Germany. Here is a picture of a clock that uses NixieCron "M" displays with the firmware set for a Nixie tube simulation.
 
@@ -27,7 +24,7 @@ As of this writing, NixieCron displays are available from Led-Genial in Germany.
 
 The original EleksTube displays that this firmware works with are no longer available. They have been replaced by a version that uses little IPS LCD screens to display numbers or any other graphics that you care to use. They look a lot like Nixie tubes and if they are showing images of actual Nixie digits you'd have to look closely to know they aren't the real thing. However, the firmware needed to drive EleksTube IPS displays is very different from this. 
 
-The original Lixie displays are no longer available, either. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with Lixie II displays and Lixie Labs still has a site on Tindie to sell them. However they are very hard to get. 
+The original Lixie displays are no longer available, either. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with Lixie II displays and Lixie Labs still has a site on Tindie to sell them. However, they are very hard to get. 
 
 Here is a picture of a clock using original Lixie displays. 
 
