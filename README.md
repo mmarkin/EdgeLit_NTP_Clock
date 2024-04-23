@@ -12,12 +12,9 @@ Detailed information about the firmware's functionality and the hardware needed 
 
 Like Nixie tubes, each display used for the clock has the digits 0 to 9 stacked one in front of another and the appropriate digit is lit to display it. However, the digits are engraved on clear acrylic panels instead of being electrodes shaped like numerals inside a glass tube filled with neon. The panels are edge-lit from the bottom with WS2812B multi-color LEDs to illuminate the engravings. So instead of being high voltage devices that can only show amber digits like Nixie tubes, these displays run on 5 volts and the LEDs can show pretty much any color. 
 
-Several types of displays can be used:
-
-NixieCron made by Led-Genial (any type, S, M, or L)
-
-EleksTube made by EleksMaker
-
+Several types of displays can be used:     
+NixieCron made by Led-Genial (any type, S, M, or L)        
+EleksTube made by EleksMaker       
 Lixie made by Lixie Labs
 
 NixieCron displays are available from Led-Genial in Germany, https://www.led-genial.de/LED-Nixie. Here is a picture of a clock that uses NixieCron "M" displays with the firmware set for a Nixie tube simulation.
