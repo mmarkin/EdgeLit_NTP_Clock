@@ -23,6 +23,8 @@ Lixie made by Connor Nishijima (Lixie Labs)
 
 As of this writing, NixieCron displays are available from Led-Genial in Germany.
 
+![NixieCron Clock_bb-menor](https://github.com/mmarkin/GPS-NTP-Timeserver/blob/main/IMAGES/EnclosureFront.JPG)
+
 The original EleksTube displays that this firmware works with are no longer available. They have been replaced by a version that uses little IPS LCD screens to display numbers or any other graphics that you care to use. They look a lot like Nixie tubes and if they are showing images of actual Nixie digits you'd have to look closely to know they aren't the real thing. However, the firmware needed to drive EleksTube IPS displays is very different from this. 
 
 The original Lixie displays are no longer available, either. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with Lixie II displays and Lixie Labs still has a site on Tindie to sell them. However they are very hard to get. 
