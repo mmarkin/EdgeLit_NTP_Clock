@@ -21,7 +21,7 @@ EleksTube made by EleksMaker
 
 Lixie made by Connor Nishijima (Lixie Labs)
 
-As of this writing, NixieCron displays are available from Led-Genial in Germany.
+As of this writing, NixieCron displays are available from Led-Genial in Germany. Here is a picture of a clock that uses NixieCron "M" displays with the firmware set for a Nixie tube simulation.
 
 ![NixieCron Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/NixieCron%20M%20Clock.JPG)
 
