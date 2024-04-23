@@ -20,13 +20,13 @@ EleksTube made by EleksMaker
 
 Lixie made by Lixie Labs
 
-As of this writing, NixieCron displays are available from Led-Genial in Germany. Here is a picture of a clock that uses NixieCron "M" displays with the firmware set for a Nixie tube simulation.
+NixieCron displays are available from Led-Genial in Germany (https://www.led-genial.de/LED-Nixie). Here is a picture of a clock that uses NixieCron "M" displays with the firmware set for a Nixie tube simulation.
 
 ![NixieCron Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/NixieCron%20M%20Clock.JPG)
 
 The original EleksTube displays that this firmware works with are no longer available. They have been replaced by a version that uses little IPS LCD screens to display numbers or any other graphics that you care to use. They look a lot like Nixie tubes and if they are showing images of actual Nixie digits you'd have to look closely to know they aren't the real thing. However, the firmware needed to drive EleksTube IPS displays is very different from this. 
 
-The original Lixie displays are no longer available, either. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with Lixie II displays and Lixie Labs still has a site on Tindie to sell them. However, they are very hard to get. 
+The original Lixie displays are no longer available, either. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with Lixie II displays and Lixie Labs still has a site on Tindie to sell them. However, they are very hard to get (https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit). 
 
 Here is a picture of a clock using original Lixie displays. 
 
