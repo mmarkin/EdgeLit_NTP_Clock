@@ -1,7 +1,7 @@
 This firmware uses an ESP32 development board (devkit) to operate a digital clock using LED numeric displays that were inspired by Nixie tubes. 
+
 ESP32 is a series of low-cost and low-power System-on-a-Chip (SoC) microcontrollers developed by Espressif Systems. They include integrated WiFi capability, dual-core processors, and much more. 
 Numerous manufacturers make ESP32 development boards that also include 4MB of flash memory, USB connectivity, a 3.3-volt power regulator, a couple of LEDs, and buttons for reset and programming. This is all packaged on a convenient little circuit board about a third the size of a business card. 
-
 
 This firmware syncs with a Network Time Protocol (NTP) server over WiFi to automatically set the clock's time and keep it accurate. The firmware can automatically find the local time zone and it also adjusts for Daylight Saving Time on its own.
 
