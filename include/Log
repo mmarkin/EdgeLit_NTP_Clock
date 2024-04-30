@@ -33,7 +33,7 @@
    Changed setup messages on serial monitor so EEPROM data displays in two columns.
 
    April 6, 2024    v4.4
-   Display type is now set in hardware using GPIO 25 and 26 to read a binary number from 00 to 11.
+   Display type is now set in hardware using two GPIO pins to read a binary number from 00 to 11.
    Added menu item to select manual time zone only.
    Added enumeration for menu item numbers so they can be referred to by name in the code 
      and the order can be easily re-arranged.
@@ -41,4 +41,7 @@
    Added support for Lixie II displays. They have been out of stock for the last 4 years so this hasn't been tested.
    GeoIP library is now on the PlatformIO and Arduino library registries so it can be installed using their 
      regular Library Managers. 
-   Added ESP GPIO 27 to flip OLED text
+   Rewrote randomDigits() so it doesn't use random numbers and all displays get all ten panels lit. 
+     The effect still doesn't have any obvious patterns. Also calls the digitModuleWrite() functions instead of
+     generating the LED data itself, therefore it works with all display types and in all color modes without needing 
+     a bunch of if statements or a separate version for Nixie mode.    
