@@ -45,3 +45,4 @@
      The effect still doesn't have any obvious patterns. Also calls the digitModuleWrite() functions instead of
      generating the LED data itself, therefore it works with all display types and in all color modes without needing 
      a bunch of if statements or a separate version for Nixie mode.    
+   Added ability to flip the OLED text upside down in hardware. 
