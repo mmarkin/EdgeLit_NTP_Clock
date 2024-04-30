@@ -25,6 +25,16 @@ Add multiples of 20 for other Lixies - e.g. 0 on second Lixie is address 23, 0 o
 The array contains the LED addresses. The physical order of the Lixie panels is 
 6, 5, 7, 4, 8, 3, 9, 2, 0, 1.
 
+Lixie II displays are quite different. The address for the second LED to light each panel can't be calculated.
+It has to be read in from a second panelOrder array.
+On the first module the addresses are:
+panelOrder  { 7, 0 ,8 ,6, 2, 10, 5, 3, 9, 1 }
+panelOrder2 { 14, 21, 13, 15, 19, 11, 18, 16, 12, 20 }
+Also there is the eleventh panel to deal with. Its addresses are 4 and 17.
+There are 22 LEDs per module so add multiples of 22 for other Lixie IIs.
+This is all based on looking at the circuit board layout files and pictures in the assembly manual.
+It has not been tested with actual Lixie IIs.
+
 Convenient constants for DST TimeChangeRules
 Last, First, Second, Third, Fourth 
 Sun, Mon, Tue, Wed, Thu, Fri, Sat
