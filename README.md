@@ -15,7 +15,7 @@ Like Nixie tubes, each display used for the clock has the digits 0 to 9 stacked 
 Several types of displays can be used:     
 NixieCron made by Led-Genial (any type, S, M, or L)        
 EleksTube made by EleksMaker (original version only, not the newer IPS version)        
-Lixie made by Lixie Labs
+Lixie made by Lixie Labs (original and Lixie II)   
 
 NixieCron displays are available from Led-Genial in Germany, https://www.led-genial.de/LED-Nixie. This is the recommended way to go considering how hard it is to get the other two types.
 Here is a picture of a clock that uses NixieCron "M" displays running this firmware set for a Nixie tube simulation.
