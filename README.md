@@ -17,11 +17,12 @@ NixieCron made by Led-Genial (any type, S, M, or L)
 EleksTube made by EleksMaker (original version only, not the newer IPS version)        
 Lixie made by Lixie Labs
 
-NixieCron displays are available from Led-Genial in Germany, https://www.led-genial.de/LED-Nixie. Here is a picture of a clock that uses NixieCron "M" displays running this firmware set for a Nixie tube simulation.
+NixieCron displays are available from Led-Genial in Germany, https://www.led-genial.de/LED-Nixie. This is the recommended way to go considering how hard it is to get the other two types.
+Here is a picture of a clock that uses NixieCron "M" displays running this firmware set for a Nixie tube simulation.
 
 ![NixieCron Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/NixieCron%20M%20Clock.JPG)
 
-The original Lixie displays are no longer available, either. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with Lixie II displays and Lixie Labs still has a site on Tindie to sell them. However, they are very hard to get. If you are adventurous enough to make your own, though, the designs are open source and LixieLabs freely offers the CAM files to make the panels and circuit boards.
+The original Lixie displays are no longer available. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with Lixie II displays and Lixie Labs still has a site on Tindie to sell them. However, they are very hard to get. If you are adventurous enough to make your own, though, the designs are open source and Lixie Labs freely offers the CAM files to make the panels and circuit boards.
 https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit 
 
 Here is a picture of a clock using original Lixie displays. 
