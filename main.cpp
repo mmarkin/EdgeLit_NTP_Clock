@@ -1256,7 +1256,7 @@ void header()
 void footer()
 {
   char buffer[36];
-  snprintf(buffer, 36, "%s Clock v%i.%i%i", displayName, VERSION_MAJOR, VERSION_MINOR, VERSION_BUILD);
+  snprintf(buffer, 36, "%s Clock v%s", displayName, cVersion);
 
   display.drawString(5, 52, buffer);
   display.drawLine(0 ,51, 128, 51);
