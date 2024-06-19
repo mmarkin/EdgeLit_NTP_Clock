@@ -29,4 +29,7 @@ Here is a picture of a clock using original Lixie displays.
 
 ![Lixie Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/Lixie%20Clock.jpg)
 
-The original EleksTube displays that this firmware works with are no longer available, either. They have been replaced by a version that uses little IPS LCD screens to display numbers or any other graphics that you care to use. They look a lot like Nixie tubes and if they are showing images of actual Nixie digits you'd have to look closely to know they aren't the real thing. However, the firmware needed to drive EleksTube IPS displays is very different from this. 
+The EleksTube displays that this firmware works with are still available as a clock kit from EleksMaker in China. The microcontroller it comes with is not an ESP32 and its firmware has limited functionality. Therefore the kit's stock microcontrollr would have to be replaced to use this firmware.   
+https://elekstube.com/products/elekstube-r-6-bit-kit-electronic-led-luminous-retro-glows-analog-nixie-tube-clock
+
+
