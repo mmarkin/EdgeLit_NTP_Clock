@@ -31,9 +31,11 @@ Here is a picture of a clock using original Lixie displays.
 
 The EleksTube displays that this firmware works with are available as a clock kit from EleksMaker in China. 
 https://elekstube.com/products/elekstube-r-6-bit-kit-electronic-led-luminous-retro-glows-analog-nixie-tube-clock. 
-The microcontroller the kit comes with is not an ESP32 and its firmware has limited functionality. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware.   
+The microcontroller the kit comes with is not an ESP32 and its firmware has limited functionality. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware.  
 
-!EleksTube Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/EleksTube%20Clock.jpg)
+Here is a picture of the EleksTube Clock.
+
+![EleksTube Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/EleksTube%20Clock.jpg)
 
 
 
