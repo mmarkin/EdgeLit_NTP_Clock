@@ -17,7 +17,7 @@ NixieCron made by Led-Genial (any type, S, M, or L)
 EleksTube made by EleksMaker (original version only, not the newer IPS version)        
 Lixie made by Lixie Labs (original and Lixie II)   
 
-NixieCron displays are available from Led-Genial in Germany, https://www.led-genial.de/LED-Nixie. This is the recommended way to go considering how hard it is to get the other two types.
+NixieCron displays are available from Led-Genial in Germany, https://www.led-genial.de/LED-Nixie. 
 Here is a picture of a clock that uses NixieCron "M" displays running this firmware set for a Nixie tube simulation.
 
 ![NixieCron Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/NixieCron%20M%20Clock.JPG)
@@ -29,8 +29,9 @@ Here is a picture of a clock using original Lixie displays.
 
 ![Lixie Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/Lixie%20Clock.jpg)
 
-The EleksTube displays that this firmware works with are still available as a clock kit from EleksMaker in China. The microcontroller the kit comes with is not an ESP32 and its firmware has limited functionality. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware.   
-https://elekstube.com/products/elekstube-r-6-bit-kit-electronic-led-luminous-retro-glows-analog-nixie-tube-clock 
+The EleksTube displays that this firmware works with are available as a clock kit from EleksMaker in China. 
+https://elekstube.com/products/elekstube-r-6-bit-kit-electronic-led-luminous-retro-glows-analog-nixie-tube-clock. 
+The microcontroller the kit comes with is not an ESP32 and its firmware has limited functionality. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware.   
 
 !EleksTube Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/EleksTube%20Clock.jpg)
 
