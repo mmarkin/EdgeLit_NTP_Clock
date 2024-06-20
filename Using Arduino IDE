@@ -17,10 +17,12 @@ Mitch Markin GeoIP v1.2.6
 As of this writing, these are the current versions of the libraries. Higher versions will probably work, 
 but if there is trouble compiling the code, use the specified versions.
 
-Create a local directory called EdgeLit_NTP_Clock_v4.44_Arduino. Copy the main.cpp file from the src directory in this repository to your EdgeLit_Clock directory. 
-Rename the file EdgeLit_NTP_Clock_v4.44_Arduino.ino. Of course, you can call the directory anything you want as long as the .ino file has the same name.
+Create a local directory called EdgeLit_NTP_Clock_v4.44_Arduino. 
+Copy the main.cpp file from the src directory in this repository to your EdgeLit_NTP_Clock_v4.44_Arduino directory. 
+Rename the file EdgeLit_NTP_Clock_v4.44_Arduino.ino. 
+Of course, you can call the directory anything you want as long as the .ino file has the same name.
 
-Copy the definitions.h and version.h files from the includes directory in this repository to your EdgeLit_Clock directory. 
+Copy the definitions.h and version.h files from the includes directory in this repository to your EdgeLit_NTP_Clock_v4.44_Arduino directory. 
 Leave the names as they are. 
 
 Open the EdgeLit_NTP_Clock_v4.44_Arduino.ino file in the Arduino IDE.
@@ -36,6 +38,6 @@ The rest of the default settings should be OK.
 
 PlatformIO would have found and installed all the libraries and done all the setup by itself.
 
-Click the Check-mark icon and a few minutes later hopefully the code will be compiled. 
+Click the Check-mark icon and a few minutes later the code should be compiled. 
 If you are feeling lucky just click the Arrow icon and it should upload to the ESP32. 
 
