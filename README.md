@@ -10,7 +10,7 @@ All setup is done from the menu except entering the credentials for the WiFi net
 
 Detailed information about the firmware's functionality and the hardware needed for a clock is in the Edge-Lit Manual.
 
-This repository is set up for the PlatformIO IDE. That's the best way to compile the code. Just clone the repository into a local directory and open that directory in PlatformIO.   
+This repository is set up for the PlatformIO IDE. That's the best way to compile the code. Just download the repository into a local directory and open that directory in PlatformIO.   
 If using the Arduino IDE see the instructions in the Using Arduino IDE file. 
 
 Like Nixie tubes, each display used for the clock has the digits 0 to 9 stacked one in front of another and the appropriate digit is lit to display it. However, the digits are engraved on clear acrylic panels instead of being electrodes shaped like numerals inside a glass tube filled with neon. The panels are edge-lit from the bottom with WS2812B multi-color LEDs to illuminate the engravings. So instead of being high voltage devices that can only show amber digits like Nixie tubes, these displays run on 5 volts and the LEDs can show pretty much any color. 
