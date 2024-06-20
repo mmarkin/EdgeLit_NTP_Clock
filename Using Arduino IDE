@@ -14,7 +14,7 @@ Michael Margolis Time v1.6.1  (you may also see it credited to Paul Stoffregen)
 Jack Christensen Timezone v1.2.4
 Mitch Markin GeoIP v1.2.6
 
-As if this writing, these are the current versions of the libraries. Higher versions will probably work, 
+As of this writing, these are the current versions of the libraries. Higher versions will probably work, 
 but if there is trouble compiling the code use the versions that were specified.
 
 Create a local directory called EdgeLit_Clock. Copy the main.cpp file from the src directory in this repository to your EdgeLit_Clock directory. 
