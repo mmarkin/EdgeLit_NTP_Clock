@@ -23,6 +23,8 @@ Rename the file EdgeLit_Clock.ino.
 Copy the definitions.h and version.h files from the includes directory in this repository to your EdgeLit_Clock directory. 
 Leave the names the same. 
 
+Open the EdgeLit_Clock.ino file in the Arduino IDE.
+
 In the Tools menu set the following items:
 Set the Board to ESP 32 Dev Module.
 Set the Port to whichever USB port the board is plugged into.
