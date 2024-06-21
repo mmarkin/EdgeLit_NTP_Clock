@@ -27,9 +27,9 @@ Leave the names as they are.
 
 Open the EdgeLit_NTP_Clock_v4.44_Arduino.ino file in the Arduino IDE.  
 
-Add one of these two lines to the definitions.h file:
-#define LED_ON HIGH   or   #define LED_ON LOW
-See "Time Sync Indication" on Page 26 of the manual for details. It can go pretty much anywhere in the file but at the bottom of the other #defines is best. 
+Add one of these two lines to the definitions.h file:   
+#define LED_ON HIGH   or   #define LED_ON LOW   
+See "Time Sync Indication" on Page 26 of the manual for details. It can go pretty much anywhere in the file but at the bottom of the other #defines is best.    
 
 In the Tools menu set the following items:   
 Set the Board to ESP 32 Dev Module.   
