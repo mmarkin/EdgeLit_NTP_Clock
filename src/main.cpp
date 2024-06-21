@@ -42,7 +42,6 @@ void setup()
   dateTempButton.setClickMs(400);
   dateTempButton.setPressMs(800); 
 
-  // Pin settings - data for display modules is on Pin 4
   // pinModes for Menu buttons and Temperature/Date button were set when their objects were created
 
   pinMode(BUILT_IN_LED, OUTPUT);
