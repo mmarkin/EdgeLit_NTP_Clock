@@ -11,7 +11,7 @@ All setup is done from the menu except entering the credentials for the WiFi net
 Detailed information about the firmware's functionality and the hardware needed for a clock is in the Edge-Lit Manual.
 
 This repository is set up for the PlatformIO IDE. That's the best way to compile or edit the code. Just download the entire repository into a local directory and open that directory in PlatformIO.
-The src directory has the main.cpp file. The includes directory has definitions.h and version.h. PlatformIO will automatically find all the libraries needed.    
+The src directory has the main.cpp file. The includes directory has two other files needed, definitions.h and version.h. PlatformIO will automatically find all the libraries needed.    
 
 The Arduino IDE can also be used. The Using Arduino IDE file in this repository will help you get things set up. 
 
