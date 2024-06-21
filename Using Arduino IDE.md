@@ -45,5 +45,6 @@ The rest of the default settings should be OK.
 
 PlatformIO would have found and installed all the libraries and done all the setup by itself.   
 
-Click the Check-mark icon and a few minutes later the code should be compiled.    
+Click the Check-mark icon and a few minutes later the code should be compiled. Some warnings might show up but they can be ignored
+as long as everything compiled without errors.
 If you are feeling lucky just click the Arrow icon and it should compile the code and upload it to the ESP32.   
