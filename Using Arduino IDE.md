@@ -9,7 +9,7 @@ Tzapu WiFiManager v2.0.17
 Matthias Hertel OneButton v2.5.0   
 ThingPulse ESP8266 and ESP32 driver for SSD1306 displays v4.5.0   
 Sparkfun TMP102 Breakout v1.1.2   
-Daniel Garcia FastLED v3.6.0   
+Daniel Garcia FastLED v3.7.0   
 Michael Margolis Time v1.6.1  (you may also see it credited to Paul Stoffregen)    
 Jack Christensen Timezone v1.2.4   
 Mitch Markin GeoIP v1.2.6   
