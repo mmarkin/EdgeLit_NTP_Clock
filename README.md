@@ -29,7 +29,7 @@ Here is a picture of a clock that uses NixieCron "M" displays running this firmw
 
 The EleksTube displays that this firmware works with are available as a clock kit from EleksMaker in China. 
 https://elekstube.com/products/elekstube-r-6-bit-kit-electronic-led-luminous-retro-glows-analog-nixie-tube-clock. 
-The microcontroller the kit comes with is not an ESP32. It has no WiFi capability so it can't sync to NTP servers unless the clock is connected to a computer with Internet access. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware. Here is a picture of an EleksTube Clock.
+The microcontroller the kit comes with is not an ESP32. It has no WiFi capability so it can't sync to NTP servers unless the clock is connected to a computer with Internet access. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware. Here is a picture of an assembled EleksTube Clock kit.
 
 ![EleksTube Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/EleksTube%20Clock.jpg)      
 
