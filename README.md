@@ -33,14 +33,9 @@ The microcontroller the kit comes with is not an ESP32. It has no WiFi capabilit
 
 ![EleksTube Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/EleksTube%20Clock.jpg)      
 
-The original Lixie displays are no longer available. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with Lixie II displays and Lixie Labs still has a site on Tindie to sell them. However, they are very hard to get. If you are adventurous enough to make your own, though, the designs are open source and Lixie Labs freely offers the CAM files to make the panels and circuit boards.
+The original Lixie displays are no longer available. They were replaced by the Lixie II version. They still use acrylic panels and WS2812 LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with either type and Lixie Labs still has a site on Tindie to sell Lixie II displays. However, they are very hard to get. If you are adventurous enough to make your own, though, the designs are open source and the CAM files to make the panels and circuit boards are free to download on the Tidie site.
 https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit 
 
 Here is a picture of a clock using original Lixie displays.
 
 ![Lixie Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/Lixie%20Clock.jpg)
-
-
-
-
-
