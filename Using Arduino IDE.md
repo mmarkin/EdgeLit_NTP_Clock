@@ -22,10 +22,10 @@ Copy the main.cpp file from the src directory in this repository to your EdgeLit
 Rename the file EdgeLit_NTP_Clock_v4.4.4_Arduino.ino.    
 Of course, you can call the directory anything you want as long as the .ino file has the same name.   
 
-Copy the definitions.h and version.h files from the includes directory in this repository to your EdgeLit_NTP_Clock_v4.44_Arduino directory.    
+Copy the definitions.h and version.h files from the includes directory in this repository to your EdgeLit_NTP_Clock_v4.4.4_Arduino directory.    
 Leave the names as they are.    
 
-Open the EdgeLit_NTP_Clock_v4.44_Arduino.ino file in the Arduino IDE.  
+Open the EdgeLit_NTP_Clock_v4.4.4_Arduino.ino file in the Arduino IDE.  
 
 Add one of these two statements to the definitions.h file:   
 #define LED_ON HIGH   
