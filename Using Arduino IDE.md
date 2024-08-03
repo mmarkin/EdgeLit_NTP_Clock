@@ -17,9 +17,9 @@ Mitch Markin GeoIP v1.2.6
 As of this writing, these are the current versions of the libraries. Higher versions will probably work,    
 but if there is trouble compiling the code, use the specified versions.
 
-Create a local directory called EdgeLit_NTP_Clock_v4.44_Arduino.    
-Copy the main.cpp file from the src directory in this repository to your EdgeLit_NTP_Clock_v4.44_Arduino directory.    
-Rename the file EdgeLit_NTP_Clock_v4.44_Arduino.ino.    
+Create a local directory called EdgeLit_NTP_Clock_v4.4.4_Arduino.    
+Copy the main.cpp file from the src directory in this repository to your EdgeLit_NTP_Clock_v4.4.4_Arduino directory.    
+Rename the file EdgeLit_NTP_Clock_v4.4.4_Arduino.ino.    
 Of course, you can call the directory anything you want as long as the .ino file has the same name.   
 
 Copy the definitions.h and version.h files from the includes directory in this repository to your EdgeLit_NTP_Clock_v4.44_Arduino directory.    
