@@ -43,8 +43,9 @@ Set Erase All Flash Before Sketch Upload to Enabled the first time the code is u
 Make sure the Partition Scheme is set to Default 4MB With SPIFFS.   
 The rest of the default settings should be OK.   
 
-PlatformIO would have found and installed all the libraries and done all the setup by itself.   
+PlatformIO would have found and installed all the libraries and done all the setup by itself!  
 
 Click the Check-mark icon and a few minutes later the code should be compiled. Some warnings might show up but they can be ignored
 as long as everything compiled without errors.
-If you are feeling lucky just click the Arrow icon and it should compile the code and upload it to the ESP32.   
+If you are feeling lucky just click the Arrow icon and it should compile the code and upload it to the ESP32. The Arduino IDE takes a 
+while to compile this code, especially the first time, so just be patient!
