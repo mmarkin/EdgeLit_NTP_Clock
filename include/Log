@@ -25,7 +25,7 @@
    March 15-31, 2024 
    Modified GeoIP library to use ArduinoJson v7.
    Modified GeoIP and LittleFS functions so they don't use string variables anymore.
-   platformiio.ini now specifies FastLED v3.6.0. It doesn't change anything here, it's just the newest version.
+   platformio.ini now specifies FastLED v3.6.0. It doesn't change anything here, it's just the newest version.
    Defined FASTLED_INTERNAL to stop FastLED's unnecessary pragma messages during compilation. 
    Reduced what is routinely shown on serial monitor to sync events unless full information is enabled in menu.
    April 1, 2024
