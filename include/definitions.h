@@ -18,7 +18,7 @@
 #include "version.h"
 
 #define BUILT_IN_LED (GPIO_NUM_2)            // Sync indicator - blue built-in LED 
-#define SPARE_PIN (GPIO_NUM_4)        // Blue led activity (high or low to light)
+#define SPARE_PIN (GPIO_NUM_4)               // For future use
 #define DATA_PIN (GPIO_NUM_13)               // LED data 
 #define DATE_TEMP_BUTTON (GPIO_NUM_18)       // Active low, toggles between auto and manual temperature and date display
 #define MENU_INCREMENT_BUTTON (GPIO_NUM_19)  // Active low, Menu +
