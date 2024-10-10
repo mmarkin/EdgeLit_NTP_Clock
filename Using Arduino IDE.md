@@ -17,15 +17,15 @@ Mitch Markin GeoIP v1.3.1
 As of this writing, these are the current versions of the libraries. Higher versions will probably work,    
 but if there is trouble compiling the code, use the specified versions.
 
-Create a local directory called EdgeLit_NTP_Clock_v4.4.4_Arduino.    
+Create a local directory called EdgeLit_NTP_Clock.    
 Copy the main.cpp file from the src directory in this repository to your EdgeLit_NTP_Clock_v4.4.4_Arduino directory.    
-Rename the file EdgeLit_NTP_Clock_v4.4.4_Arduino.ino.    
+Rename the file EdgeLit_NTP_Clock.ino.    
 Of course, you can call the directory anything you want as long as the .ino file has the same name.   
 
-Copy the definitions.h and version.h files from the includes directory in this repository to your EdgeLit_NTP_Clock_v4.4.4_Arduino directory.    
+Copy the definitions.h and version.h files from the includes directory in this repository to your EdgeLit_NTP_Clock directory.    
 Leave the names as they are.    
 
-Open the EdgeLit_NTP_Clock_v4.4.4_Arduino.ino file in the Arduino IDE.  
+Open the EdgeLit_NTP_Clock.ino file in the Arduino IDE.  
 
 Add one of these two statements to the definitions.h file:   
 #define LED_ON HIGH   
