@@ -18,7 +18,7 @@ As of this writing, these are the current versions of the libraries. Higher vers
 but if there is trouble compiling the code, use the specified versions.
 
 Create a local directory called EdgeLit_NTP_Clock.    
-Copy the main.cpp file from the src directory in this repository to your EdgeLit_NTP_Clock_v4.4.4_Arduino directory.    
+Copy the main.cpp file from the src directory in this repository to your EdgeLit_NTP_Clock directory.    
 Rename the file EdgeLit_NTP_Clock.ino.    
 Of course, you can call the directory anything you want as long as the .ino file has the same name.   
 
