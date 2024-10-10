@@ -27,13 +27,6 @@ Leave the names as they are.
 
 Open the EdgeLit_NTP_Clock.ino file in the Arduino IDE.  
 
-Add one of these two statements to the definitions.h file:   
-#define LED_ON HIGH   
-#define LED_ON LOW   
-The statement tells the firmware whether the blue LED on the ESP board is lit by writing a HIGH or a LOW to its GPIO pin. Most boards are HIGH.
-See "Time Sync Indication" in the Edge-Lit Manual for details.
-The statement can go anywhere in the file but at the bottom of the other #defines is best.    
-
 In the Tools menu set the following items:   
 Set the Board to ESP 32 Dev Module.   
 Set the Port to whichever USB port the board is plugged into.   
