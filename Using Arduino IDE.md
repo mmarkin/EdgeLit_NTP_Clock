@@ -7,7 +7,8 @@ The resulting EdgeLit_NTP_Clock-main directory is set up for PlatformIO, so you 
 - Move the main.cpp file from the src sub-directory to the main directory and rename it EdgeLit_NTP_Clock-main.ino.
   Ignore the warning that comes up. Changing the name is necessary. 
 - Delete the src subdirectory.
-- Move the definitions.h and version.h files from the includes sub-directory to the main directory. Don't change the names. 
+- Move the definitions.h and version.h files from the includes sub-directory to the main directory. Don't change the names.
+  
 You can delete the platformio.ini file if you want. 
 
 If the code was supplied on a flash drive or other media, all the files the Arduino IDE needs for this project are in the EdgeLit_NTP_Clock-main directory. It's ready to go so no changes need to be made. 
