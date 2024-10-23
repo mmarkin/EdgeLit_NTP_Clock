@@ -12,7 +12,7 @@ Detailed information about the firmware's functionality and the hardware needed 
 
 This repository is set up for the PlatformIO IDE. That's the best way to compile or edit the code. Just download the entire repository into a local directory (click "Code" then 
 "Download Zip"). Unzip the file received and open the resulting directory in PlatformIO.
-The src directory has the main.cpp file. The include directory has two other files needed, definitions.h and version.h. PlatformIO will automatically find all the libraries needed.    
+The src sub-directory has the main.cpp file. The include sub-directory has two other files needed, definitions.h and version.h. PlatformIO will automatically find all the libraries needed.    
 
 The Arduino IDE can also be used, but it's not recommended. The Using Arduino IDE file in this repository will help you get things set up. 
 
