@@ -18,8 +18,8 @@ To compile the code, first make sure the ESP32 extensions are installed in the I
 Then the following libraries have to be installed. Use the IDE's Library Manager to search for them one by one, select the appropriate version, and click install:  
 
 - Tzapu WiFiManager v2.0.17
-- Matthias Hertel OneButton v2.5.0
--ThingPulse ESP8266 and ESP32 driver for SSD1306 displays v4.5.0
+- Matthias Hertel OneButton v2.5.0   
+- ThingPulse ESP8266 and ESP32 driver for SSD1306 displays v4.5.0
 - Sparkfun TMP102 Breakout v1.1.2
 - Daniel Garcia FastLED v3.7.0
 - Michael Margolis Time v1.6.1  (you may also see it credited to Paul Stoffregen) 
