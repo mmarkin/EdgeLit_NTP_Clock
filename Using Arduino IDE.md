@@ -2,7 +2,7 @@
 This firmware is best edited and compiled using PlatformIO. However, with a bit of doing the Arduino IDE (versions1.8.19 or 2.3.3) can be used. This has been tested on both versions of the IDE and it worked. But as they say, “Your mileage may vary.”
 This guide assumes that you are familiar with the operation of the Arduino IDE.
 
-The latest version of the code is available from this repository. Just click the s “Code” button to download the repository to a local directory (choose the “Download Zip” option then unzip the file you receive). 
+The latest version of the code is available from this repository. Just click the “Code” button to download the repository to a local directory (choose the “Download Zip” option then unzip the file you receive). 
 The resulting EdgeLit_NTP_Clock-main directory is set up for PlatformIO, so you will have to do some re-arranging to use it with the Arduino IDE:
 - Move the main.cpp file from the src sub-directory to the main directory and rename it EdgeLit_NTP_Clock-main.ino.
   Ignore the warning that comes up. Changing the name is necessary. 
@@ -36,7 +36,7 @@ In theTools menu set the following items:
 - Set Erase All Flash Before Sketch Upload to Enabled the first time the code is uploaded.
   This will make sure the SPIFFS file system is formatted properly so the firmware will work.
   It can be set to Disabled for uploads after the first one.  
-Make sure the Partition Scheme is set to Default 4MB With SPIFFS.
+- Make sure the Partition Scheme is set to Default 4MB With SPIFFS
 
 The rest of the default settings should be OK.
 
@@ -46,4 +46,4 @@ Click the Check-mark icon and hopefully the code will be compiled. This takes wh
 Some warnings might show up but they can be ignored as long as everything compiled without errors. 
 If you are feeling lucky just click the Arrow icon and it should upload to the ESP32. 
 
-When the upload finishes the firmware should start running and you can follow the instructions in the Quick Start First Time Setup Guide on Page 69 of the manual. The IDE's serial monitor can be opened to check that everything is working properly (see Page 62).
+When the upload finishes the firmware should start running and you can follow the instructions in the Quick Start First Time Setup Guide in the manual. The IDE's serial monitor can be opened to check that everything is working properly (see the Serial Monitor menu item in the manual).
