@@ -5,7 +5,7 @@ This guide assumes that you are familiar with the operation of the Arduino IDE.
 The latest version of the code is available from this repository. Just click the “Code” button to download the repository to a local directory (choose the “Download Zip” option then unzip the file you receive). 
 The resulting EdgeLit_NTP_Clock-main directory is set up for PlatformIO, so you will have to do some re-arranging to use it with the Arduino IDE:
 - Move the main.cpp file from the src sub-directory to the main directory and rename it EdgeLit_NTP_Clock-main.ino.
-  Ignore the warning that comes up. Changing the name is necessary. 
+  Ignore the warning that comes up. Changing the file's name and its extension is necessary. 
 - Delete the src subdirectory.
 - Move the definitions.h and version.h files from the includes sub-directory to the main directory. Don't change the names.
 - You can delete the platformio.ini file if you want. 
