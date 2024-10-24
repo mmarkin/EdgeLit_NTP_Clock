@@ -1,13 +1,18 @@
 
 This firmware is best edited and compiled using PlatformIO. However, with a bit of doing the Arduino IDE can be used. This has been tested on the new "Version 2" and the older 1.8.19 version of the IDE and it worked. But as they say, “Your mileage may vary.”
-This guide asumes you are familiar with the operation of the Arduino IDE.
+This guide assumes you are familiar with the operation of the Arduino IDE.
 
-The latest version of the code is available from this repository. Copy the EdgeLit_NTP_Clock-For Arduino IDE folder from this repository to your computer.
+The latest version of the code is available from this repository. 
+Just click the repository's “Code” button to download the files to a local directory. Choose the “Download Zip” option then unzip the file you receive. 
+The resulting EdgeLit_NTP_Clock-main directory is set up for PlatformIO, so you will have to do some re-arranging to use it with the Arduino IDE:
+- Move the main.cpp file from the src sub-directory to the main directory and rename it EdgeLit_NTP_Clock-main.ino. Ignore the warning that comes up. Changing the name and its extension is necessary. 
+- Delete the src sub-directory.
+- Move the definitions.h and version.h files from the include sub-directory to the main directory. Don't change their names. 
+- You can delete the platformio.ini file if you want. 
 
-If the code was supplied on a flash drive or other media, all the files the Arduino IDE needs for this project are in the 
-EdgeLit_NTP_Clock-For Arduino IDE folder there.  
+If the code was supplied on a flash drive or other media, the EdgeLit_NTP_Clock-main directory there is already set for the Arduino IDE so none of the files need to be moved or renamed.
 
-You won't have to change anything in any of the files unless you want to modify the firmware. 
+You won't have to change anything in any of these files unless you want to modify the firmware.
 
 To compile the code, first make sure the ESP32 extensions are installed in the IDE and they are up to date. 
 Then the following libraries have to be installed. Use the IDE's Library Manager to search for them one by one, select the appropriate version, and click install:  
