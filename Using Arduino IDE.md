@@ -1,19 +1,13 @@
 
-This firmware is best edited and compiled using PlatformIO. However, with a bit of doing the Arduino IDE (versions1.8.19 or 2.3.3) can be used. This has been tested on both versions of the IDE and it worked. But as they say, “Your mileage may vary.”
-This guide assumes you are familiar with the operation of the Arduino IDE.
+This firmware is best edited and compiled using PlatformIO. However, with a bit of doing the Arduino IDE can be used. This has been tested on the new "Version 2" and the older 1.8.19 version of the IDE and it worked. But as they say, “Your mileage may vary.”
+This guide asumes you are familiar with the operation of the Arduino IDE.
 
-The latest version of the code is available from this repository. Just click the “Code” button to download the repository to a local directory (choose the “Download Zip” option then unzip the file you receive). 
-The resulting EdgeLit_NTP_Clock-main directory is set up for PlatformIO, so you will have to do some re-arranging to use it with the Arduino IDE:
-- Move the main.cpp file from the src sub-directory to the main directory and rename it EdgeLit_NTP_Clock-main.ino.
-  Ignore the warning that comes up. Changing the file's name and its extension is necessary. 
-- Delete the src sub-directory.
-- Move the definitions.h and version.h files from the include sub-directory to the main directory. Don't change the names.
-- You can delete the platformio.ini file if you want. 
+The latest version of the code is available from this repository. Copy the EdgeLit_NTP_Clock-For Arduino IDE folder from this repository to your computer.
 
 If the code was supplied on a flash drive or other media, all the files the Arduino IDE needs for this project are in the 
-EdgeLit_NTP_Clock-main directory there. It's ready to go so no files need to be moved or renamed. 
+EdgeLit_NTP_Clock-For Arduino IDE folder there.  
 
-You won't have to change anything in any of these files unless you want to modify the firmware. 
+You won't have to change anything in any of the files unless you want to modify the firmware. 
 
 To compile the code, first make sure the ESP32 extensions are installed in the IDE and they are up to date. 
 Then the following libraries have to be installed. Use the IDE's Library Manager to search for them one by one, select the appropriate version, and click install:  
@@ -29,7 +23,7 @@ Then the following libraries have to be installed. Use the IDE's Library Manager
 
 As of this writing, these are the current versions of the libraries. Higher versions will probably work, but if there is trouble compiling the code use the versions that were specified.
 
-Open the EdgeLit_NTP_Clock-main.ino file in the Arduino IDE.
+Clock on the EdgeLit_NTP_Clock-For Arduino IDE.ino file in the folder and the IDE should open showing the code.
 
 In theTools menu set the following items:
 - Set the Board to ESP 32 Dev Module.
