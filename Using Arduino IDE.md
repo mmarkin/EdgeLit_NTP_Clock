@@ -3,7 +3,7 @@ This firmware is best edited and compiled using PlatformIO. However, with a bit 
 This guide assumes you are familiar with the operation of the Arduino IDE.
 
 The latest version of the code is available from this repository. 
-Just click the green “Code” button on the repository's main page to download the files to a local directory. Choose the “Download ZIP” option then unzip the file you receive. 
+Just click the green “<> Code” button on the repository's main page to download the files to a local directory. Choose the “Download ZIP” option then unzip the file you receive. 
 The resulting EdgeLit_NTP_Clock-main directory is set up for PlatformIO, so you will have to do some re-arranging to use it with the Arduino IDE:
 - Move the main.cpp file from the src sub-directory to the main directory and rename it EdgeLit_NTP_Clock-main.ino. Ignore the warning that comes up. Changing the name and its extension is necessary. 
 - Delete the src sub-directory.
