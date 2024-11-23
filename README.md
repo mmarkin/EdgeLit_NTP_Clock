@@ -23,7 +23,8 @@ NixieCron made by Led-Genial (any type, S, M, or L)
 EleksTube made by EleksMaker (R version only, not the IPS version)        
 Lixie made by Lixie Labs (original and Lixie II)   
 
-NixieCron displays are available from Led-Genial in Germany, https://www.led-genial.de/LED-Nixie. Howerver, they have limited international shipping.
+NixieCron displays are available from Led-Genial in Germany, https://www.led-genial.de/LED-Nixie. Howerver, they have limited international shipping
+and they no longer ship to North America.
 Here is a picture of a clock that uses NixieCron "M" displays running this firmware set for a Nixie tube simulation.
 
 ![NixieCron Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/NixieCron%20M%20Clock.JPG)     
