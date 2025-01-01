@@ -46,8 +46,7 @@ The microcontroller the kit comes with is not an ESP32. It has no WiFi capabilit
 Lixie   
 
 The original Lixie displays are no longer available. They were replaced by the Lixie II version. They still use acrylic panels and WS2812B LEDs but the panel order and the LED layout are different from the originals. They are also built more like NixieCron displays since the original design had some problems. This firmware can work with either type and Lixie Labs still has a site on Tindie to sell Lixie II displays.  
-https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit 
-However, they are usually out of stock. If you are adventurous enough to make your own, though, as mentioned earlier, the designs are open source and the fabrication files to make the panels and circuit boards are free to download.    
+https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit. However, they are usually out of stock. If you are adventurous enough to make your own, though, as mentioned earlier, the designs are open source and the fabrication files to make the panels and circuit boards are free to download.    
 
 Here is a picture of a clock using original Lixie displays.
 
