@@ -2,7 +2,7 @@ This firmware uses an ESP32 development board (devkit) to operate a digital cloc
 
 Like Nixie tubes, each display used for the clock has the digits 0 to 9 stacked one in front of another and the appropriate digit is lit to display it. However, the digits are engraved on clear acrylic panels instead of being electrodes shaped like numerals inside a glass tube filled with neon. The panels are edge-lit from the bottom with WS2812B multi-color LEDs to illuminate the engravings. So instead of being high voltage devices that can only show amber digits like Nixie tubes, these displays run on 5 volts and the LEDs can show pretty much any color. 
 
-Several types of commercially made displays can be used – NixieCron, EleksTube, and Lixie. Unfortunately, all of these displays are very hard to get these days so this firmware is mainly intended as an upgrade for the stock firmware in existing clocks. It's also possible to make your own displays but you would need access to a CO2 laser cutter to cut and engrave the digit panels and a good way to solder lots of surface-mount parts to circuit boards. Here is a link to a github repository posted by the designer of Lixie displays, Connor Nishijima. https://github.com/connornishijima/Lixie_II_OSHW. It has lots of information on how to make them including the fabrication files for the digit panels and circuit boards.   
+Several types of commercially made displays can be used – NixieCron, EleksTube, and Lixie. Unfortunately, all of these displays are very hard or impossible to get these days so this firmware is mainly intended as an upgrade for the stock firmware in existing clocks. It's also possible to make your own displays but you would need access to a CO2 laser cutter to cut and engrave the digit panels and a good way to solder lots of surface-mount parts to circuit boards. Here is a link to a github repository posted by the designer of Lixie displays, Connor Nishijima. https://github.com/connornishijima/Lixie_II_OSHW. It has lots of information on how to make them including the fabrication files for the digit panels and circuit boards.   
 
 This firmware syncs with a Network Time Protocol (NTP) server over WiFi to automatically set the clock's time and keep it accurate. The firmware can automatically find the local time zone and it also adjusts for Daylight Saving Time on its own. 
 
@@ -35,9 +35,9 @@ Here is a picture of a clock that uses NixieCron "M" displays running this firmw
 
 EleksTube   
 
-The EleksTube displays that this firmware works with come as a clock kit from EleksMaker in China. It's still listed on their website but it may be out of stock.
+The EleksTube displays that this firmware works with were available as a clock kit from EleksMaker in China, but the kit has been discontinued. 
 https://elekstube.com/products/elekstube-r-6-bit-kit-electronic-led-luminous-retro-glows-analog-nixie-tube-clock. 
-The microcontroller the kit comes with is not an ESP32. It has no WiFi capability so it can't sync to NTP servers unless the clock is connected to a computer with Internet access. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware. Here is a picture of an assembled EleksTube Clock kit.
+The microcontroller the kit came with the kit is not an ESP32. It has no WiFi capability so it can't sync to NTP servers unless the clock is connected to a computer with Internet access. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware. Here is a picture of an assembled EleksTube Clock kit.
 
 ![EleksTube Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/EleksTube%20Clock.jpg)     
 
