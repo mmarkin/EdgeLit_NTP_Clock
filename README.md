@@ -37,7 +37,7 @@ EleksTube
 
 The EleksTube displays that this firmware works with were available as a clock kit from EleksMaker in China, but the kit has been discontinued. 
 https://elekstube.com/products/elekstube-r-6-bit-kit-electronic-led-luminous-retro-glows-analog-nixie-tube-clock. 
-The microcontroller the kit came with the kit is not an ESP32. It has no WiFi capability so it can't sync to NTP servers unless the clock is connected to a computer with Internet access. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware. Here is a picture of an assembled EleksTube Clock kit.
+The microcontroller the kit came with is not an ESP32. It has no WiFi capability so it can't sync to NTP servers unless the clock is connected to a computer with Internet access. Therefore the kit's stock microcontroller board would have to be replaced with an ESP32 module to use this firmware. Here is a picture of an assembled EleksTube Clock kit.
 
 ![EleksTube Clock_bb-menor](https://github.com/mmarkin/EdgeLit_NTP_Clock/blob/main/images/EleksTube%20Clock.jpg)     
 
